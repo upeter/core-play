@@ -6,8 +6,13 @@ This is the Play 2 project accompanying my presentation called "Core Play". It c
 Getting started
 ---------------
 
-This is just an SBT application; you don't need Play 2.
+To run the sample do the following:
 
-Run `sbt run`, and browse to http://localhost:9000/
+# git clone git@github.com:upeter/core-play.git
+# cd to core-play directory
+# run: sbt
+# in play-shell run: run
+# Open a browser and add url: http://localhost:9000/websockets
+# In the websocket address field enter: ws://localhost:9000/websockets/cpu-info
+# Hit the 'connect' button and repeat the connect in other tabs. Look what happens...
 
-For the WebSocket test-screen, browse to http://localhost:9000/
